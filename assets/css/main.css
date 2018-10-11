@@ -1098,8 +1098,8 @@ ul.icons {
 form label {
   display: block;
   font-weight: 400;
-  color: #483949;
-  margin: 0 0 1em 0; }
+  color: #fff;
+  margin: 1em 0 0 0; }
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
@@ -1131,6 +1131,8 @@ form select {
   line-height: 1em; }
 form textarea {
   min-height: 9em; }
+form [type="submit"] {
+  margin-top: 1em; }
 form ::-webkit-input-placeholder {
   color: #555 !important; }
 form :-moz-placeholder {
