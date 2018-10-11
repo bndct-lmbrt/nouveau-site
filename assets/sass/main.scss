@@ -823,18 +823,23 @@
 			}
 		}
 
-		body.page {
-			header {
-				background: none;
-			}
-		}
-
 		&.is-preload {
 			#header {
 				&:after {
 					opacity: 1;
 				}
 			}
+		}
+	}
+
+	.page {
+		#header {
+			padding: 75px 0 0 ;
+			background: none;
+		}
+
+		#nav {
+			background-color: #1C2F5A;
 		}
 	}
 
