@@ -823,6 +823,12 @@
 			}
 		}
 
+		body.page {
+			header {
+				background: none;
+			}
+		}
+
 		&.is-preload {
 			#header {
 				&:after {

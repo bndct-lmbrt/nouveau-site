@@ -1337,6 +1337,8 @@ body.homepage #header {
     -webkit-transition-delay: 0.5s;
     -ms-transition-delay: 0.5s;
     transition-delay: 0.5s; }
+body.homepage body.page header {
+  background: none; }
 body.homepage.is-preload #header:after {
   opacity: 1; }
 
