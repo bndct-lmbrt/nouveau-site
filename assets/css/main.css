@@ -1252,6 +1252,8 @@ button,
 /* Header */
 #header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   background-image: url("../../images/header.jpg");
   background-size: cover;

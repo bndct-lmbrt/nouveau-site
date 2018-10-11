@@ -711,6 +711,8 @@
 
 	#header {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 		position: relative;
 		background-image: url('../../images/header.jpg');
 		background-size: cover;
@@ -720,13 +722,6 @@
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
-
-		// &:before {
-		// 	content: '';
-		// 	display: inline-block;
-		// 	vertical-align: middle;
-		// 	height: 100%;
-		// }
 
 		.inner {
 			position: relative;
