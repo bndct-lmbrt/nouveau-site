@@ -1340,6 +1340,12 @@ body.homepage #header {
 body.homepage.is-preload #header:after {
   opacity: 1; }
 
+.page #header {
+  padding: 75px 0 0;
+  background: none; }
+.page #nav {
+  background-color: #1C2F5A; }
+
 /* Nav */
 #nav {
   position: absolute;
