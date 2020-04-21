@@ -64,7 +64,7 @@
 <article class="col-4 col-12-mobile special">
 	<a href="#" class="image featured"><img src="images/pic-telephone.jpg" alt="" /></a>
 	<header>
-		<h3><a href="#">Pour me contacter</a></h3>
+		<h3>Pour me contacter</h3>
 	</header>
 	<p>
 	Téléphone : </p>
@@ -77,7 +77,7 @@
 <article class="col-4 col-12-mobile special">
 	<a href="#" class="image featured"><img src="images/pic-icones.jpg" alt="" /></a>
 	<header>
-		<h3><a href="#">Pour me trouver sur les réseaux sociaux</a></h3>
+		<h3>Pour me trouver sur les réseaux sociaux</h3>
 	</header>
 	<p>
 
@@ -86,11 +86,24 @@
 <article class="col-4 col-12-mobile special">
 	<a href="#" class="image featured"><img src="images/pic-devis.jpg" alt="" /></a>
 	<header>
-		<h3><a href="#">Pour un renseignement ou un devis</a></h3>
+		<h3>Pour un renseignement ou un devis</h3>
 	</header>
-	<p>
+	<section id="contact">
+		<div class="row">
+			<div class="col-6">
 
-	</p>
+				<form action="https://formspree.io/contact@benedictelambert.com" method="POST">
+					<label for="name">Votre nom / prénom</label>
+					<input type="text" name="name" id="name">
+					<label for="email">Votre adresse email</label>
+					<input type="email" id="email" name="_replyto">
+					<label for="message">Votre message</label>
+					<textarea name="messsage" id="message"></textarea>
+					<input type="submit" value="Envoyer">
+				</form>
+			</div>
+		</div>
+	</section>
 </article>
 </div>
 </div>
