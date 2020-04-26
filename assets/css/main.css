@@ -1346,7 +1346,7 @@ body.homepage.is-preload #header:after {
 
 .page #header {
   padding: 75px 0 0;
-  background: #1C2F5A; }
+  background: none; }
 .page #nav {
   background-color: #1C2F5A; }
 
