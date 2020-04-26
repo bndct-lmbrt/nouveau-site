@@ -1958,7 +1958,6 @@ body.homepage.is-preload #header:after {
     width: 700px;
     text-align: center;
     text-decoration: none;
-    font-size: 6em;
 }
 
 /* Add a hover effect if you want */
@@ -1972,6 +1971,7 @@ body.homepage.is-preload #header:after {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    font-size: 6em;
 }
 
 .fa-twitter {
