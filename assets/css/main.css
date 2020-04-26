@@ -1958,6 +1958,7 @@ body.homepage.is-preload #header:after {
     width: 700px;
     text-align: center;
     text-decoration: none;
+    font-size: 6em;
 }
 
 /* Add a hover effect if you want */
