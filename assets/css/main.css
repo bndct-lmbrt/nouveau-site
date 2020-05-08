@@ -1410,6 +1410,10 @@ body.homepage.is-preload #header:after {
       #nav > ul > li > ul {
         display: none; }
 
+      .home > ul > li > a, .home > ul > li > span {
+      color: blue; }
+
+
 .dropotron {
   background: rgba(255, 255, 255, 0.975);
   padding: 1em 1.25em 1em 1.25em;
