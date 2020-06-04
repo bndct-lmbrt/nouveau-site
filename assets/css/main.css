@@ -999,10 +999,6 @@ footer {
     display: block;
     width: 100%;
     margin: 0 0 4em 0; }
-    .image.featured2 {
-      display: block;
-      width: 30%;
-      margin: 0 0 4em 0; }
       .image.featured3 {
         text-align:center;
         width: 50%;
@@ -1013,9 +1009,14 @@ footer {
   .image.centered {
     display: block;
     margin: 0 0 2em 0; }
-    .image.centered img {
-      margin: 0 auto;
-      width: auto; }
+  .image.centered img {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .image.featured2 img {
+    width: 30%;
+  }
 
 /* List */
 ul {
@@ -1403,15 +1404,20 @@ body.homepage.is-preload #header:after {
         border-color: rgba(192, 192, 192, 0.35); }
       #nav > ul > li > a, #nav > ul > li > span {
         display: block;
-        color: inherit;
         text-decoration: none;
         border: 0;
         outline: 0; }
       #nav > ul > li > ul {
         display: none; }
 
+<<<<<<< HEAD
       .home > li > a, .home > li > span {
       color: blue; }
+=======
+      #home > li > a, #home > li > span {
+        color: blue;
+      }
+>>>>>>> fe749b876fe1fb864a2a2a6533b6ddcd49fb81b4
 
 
 .dropotron {
