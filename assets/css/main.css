@@ -1410,7 +1410,7 @@ body.homepage.is-preload #header:after {
       #nav > ul > li > ul {
         display: none; }
 
-      .home > ul > li > a, .home > ul > li > span {
+      .home > li > a, .home > li > span {
       color: blue; }
 
 
