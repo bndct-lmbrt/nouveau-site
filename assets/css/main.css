@@ -1410,14 +1410,11 @@ body.homepage.is-preload #header:after {
       #nav > ul > li > ul {
         display: none; }
 
-<<<<<<< HEAD
+
       .home > li > a, .home > li > span {
       color: blue; }
-=======
-      #home > li > a, #home > li > span {
-        color: blue;
-      }
->>>>>>> fe749b876fe1fb864a2a2a6533b6ddcd49fb81b4
+
+
 
 
 .dropotron {
