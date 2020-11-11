@@ -1402,7 +1402,7 @@ body.homepage.is-preload #header:after {
       -ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
       transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out; }
       #nav > ul > li.active {
-        border-color: rgba(192, 192, 192, 0.35); }
+        border-color: white; }
       #nav > ul > li > a, #nav > ul > li > span {
         display: block;
         text-decoration: none;
@@ -1413,7 +1413,7 @@ body.homepage.is-preload #header:after {
 
 
       .home > li > a, .home > li > span {
-      color: white; }
+      color: blue; }
 
 
 
